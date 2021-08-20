@@ -1,0 +1,128 @@
+body{
+   text-align:center;
+   background-image: linear-gradient(#ffde03 0%, #fe0606 100%);
+  background-repeat: no-repeat ;
+}
+
+h1{
+ text-shadow:2px 2px #fe9706;
+ font-size:30px; 
+}
+
+h4{
+    color:crimson;
+    font-family: serif;
+}
+
+h5{
+    color: crimson;
+    font-family: serif;
+}
+
+img{
+  border-radius:50%;
+  width:150px;
+}
+
+.naruto_hinata{
+    border-radius: 0%;
+    width:200px;
+}
+
+#bio{
+  padding:20%;
+  font-size:18;
+  text-align:center;
+}
+
+p{
+  font-size:18px;
+  color:#001898;
+  font-family: 'Uchen', serif;  
+}
+
+#SEC1{
+position: absolute;
+height: 800px;
+color: cornsilk;    
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+opacity: 0.83;
+background: linear-gradient(#fa6800 0%, #ffff40 100%);
+display: table;
+width: 100%;
+height: 100%;    
+z-index: 9;    
+}
+
+.line{
+height: 6px;
+width: 80px;
+background-color: orangered;
+margin: 8px auto;   
+}
+
+.menu{
+position: fixed;    
+font-family: 'STIX Two Math', serif;
+margin-top: 0px;
+top: 0px;
+z-index: 10;
+cursor: pointer;  
+width: 100%;    
+background-color: darkturquoise;    
+}
+
+.links{
+color: chocolate;
+padding-top: 5px;
+padding-left: 33px;
+padding-right: 25px;
+padding-bottom: 5px;
+font-family: serif;
+font-size: 20px;    
+display: inline;     
+}
+
+.links:hover{
+background-color: blue;
+font-size: 30px;
+text-decoration:underline;  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: darkcyan;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#contact{
+    background-color: burlywood;
+}
+
+.contact1 a{
+    color: darkorange;
+    text-shadow: none;
+}
+
+.contact h3{
+   display: inline; 
+}
+
+.naruto_hinata{
+    transition: transform .2s;
+}
+
+.naruto_hinata:hover{
+    transform: scale(0.8);
+}
+
+.contact h3{
+   display: inline; 
+}
